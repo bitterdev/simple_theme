@@ -1,0 +1,3 @@
+# Simple Theme  
+
+Simple Theme is a clean and ultra-minimalist theme for Concrete CMS, designed specifically for focused one-page websites that don’t require a traditional navigation menu. Ideal for landing pages, personal profiles, product highlights, or temporary announcements, this theme strips away all distractions and puts your content front and center. Built on the Bedrock foundation like all my themes, it is fully compatible with Concrete CMS Version 9 and follows best practices for performance and SEO. Whether you're looking to present something quickly and effectively or need a clean layout to let your message shine, Simple Theme provides the perfect base. Easy to set up and customize, it ensures that your page loads fast and looks great on all devices.
