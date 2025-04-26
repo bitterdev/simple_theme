@@ -3,4 +3,17 @@
     <themes>
         <theme handle="simple_theme" activated="1" package="simple_theme"/>
     </themes>
+
+    <singlepages>
+        <page name="Simple Theme" path="/dashboard/simple_theme"
+              filename="/dashboard/simple_theme.php"
+              pagetype="" description=""
+              package="simple_theme">
+        </page>
+
+        <page name="Settings" path="/dashboard/simple_theme/settings"
+              filename="/dashboard/simple_theme/settings.php" pagetype="" description=""
+              package="simple_theme">
+        </page>
+    </singlepages>
 </concrete5-cif>

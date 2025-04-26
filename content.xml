@@ -50,4 +50,253 @@
         <link service="twitter" url="#"/>
         <link service="youtube" url="#"/>
     </sociallinks>
+
+    <stacks>
+        <stack name="Footer Copyright" type="global_area" path="/footer-copyright">
+            <area name="Main">
+                <blocks>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<p>Copyright 2025 Lorem ipsum.</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+        </stack>
+        <stack name="Footer Navigation" type="global_area" path="/footer-navigation">
+            <area name="Main">
+                <blocks>
+                    <block type="autonav" name="">
+                        <data table="btNavigation">
+                            <record>
+                                <orderBy>display_asc</orderBy>
+                                <displayPages>top</displayPages>
+                                <displayPagesCID/>
+                                <displayPagesIncludeSelf>0</displayPagesIncludeSelf>
+                                <displaySubPages>none</displaySubPages>
+                                <displaySubPageLevels>enough</displaySubPageLevels>
+                                <displaySubPageLevelsNum>0</displaySubPageLevelsNum>
+                                <displayUnavailablePages>0</displayUnavailablePages>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+        </stack>
+        <stack name="Footer Title" type="global_area" path="/footer-title">
+            <area name="Main">
+                <blocks>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<p style="text-align: center;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                </blocks>
+            </area>
+        </stack>
+    </stacks>
+    <pages>
+        <page name="Home" path="" public-date="2025-04-22 15:07:26" filename="" pagetype="" template="full" user="admin"
+              description="" package="" root="true">
+            <area name="Page Header">
+                <blocks/>
+            </area>
+            <area name="Main">
+                <blocks>
+                    <block type="content" name="">
+                        <data table="btContentLocal">
+                            <record>
+                                <content><![CDATA[<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend</p>
+]]></content>
+                            </record>
+                        </data>
+                    </block>
+                    <block type="page_title" name="">
+                        <data table="btPageTitle">
+                            <record>
+                                <useCustomTitle>1</useCustomTitle>
+                                <useFilterTitle>0</useFilterTitle>
+                                <useFilterTopic>0</useFilterTopic>
+                                <useFilterTag>0</useFilterTag>
+                                <useFilterDate>0</useFilterDate>
+                                <topicTextFormat>0</topicTextFormat>
+                                <tagTextFormat>upperWord</tagTextFormat>
+                                <dateTextFormat>0</dateTextFormat>
+                                <filterDateFormat>F Y</filterDateFormat>
+                                <titleText>Lorem Ipsum</titleText>
+                                <formatting>h2</formatting>
+                            </record>
+                        </data>
+                    </block>
+                    <block type="gallery" name="" custom-template="three_column_grid">
+                        <includeDownloadLink>0</includeDownloadLink>
+                        <entries>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                            <entry>
+                                <fID>{ccm:export:file:placeholder.jpg}</fID>
+                                <displaychoices>
+                                    <choice>
+                                        <dckey>caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>hover_caption</dckey>
+                                        <value/>
+                                    </choice>
+                                    <choice>
+                                        <dckey>size</dckey>
+                                        <value>standard</value>
+                                    </choice>
+                                </displaychoices>
+                            </entry>
+                        </entries>
+                    </block>
+                </blocks>
+            </area>
+            <area name="Page Footer">
+                <blocks/>
+            </area>
+        </page>
+    </pages>
 </concrete5-cif>
